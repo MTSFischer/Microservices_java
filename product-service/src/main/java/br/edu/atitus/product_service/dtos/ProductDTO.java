@@ -7,10 +7,10 @@ public record ProductDTO(
     double price,
     String currency,
     Integer stock,
-    Boolean needsPrescription,
     String especificacao,
     String comoUsar,
     String imageUrl,
     String environment,
-    double convertedPrice){
+    double convertedPrice,
+    Boolean needsPrescription){
 }
